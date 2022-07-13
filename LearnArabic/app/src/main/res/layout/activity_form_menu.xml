@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-140dp">
+
+        <Button
+            android:id="@+id/CheckFinal"
+            style="@style/menuButton"
+            android:text="@string/check_final"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <Button
+            android:id="@+id/CheckMedial"
+            style="@style/menuButton"
+            android:text="@string/check_medial"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <Button
+            android:id="@+id/CheckInitial"
+            style="@style/menuButton"
+            android:layout_height="wrap_content"
+            android:text="@string/check_initial"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <Button
+            android:id="@+id/CheckIsolated"
+            style="@style/menuButton"
+            android:text="@string/check_isolated"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LearnArabic</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="test_label">Test</string>
+    <string name="initial_label">initial</string>
+    <string name="check_initial">Initial</string>
+    <string name="check_medial">Medial</string>
+    <string name="check_isolated">Isolated</string>
+    <string name="check_final">Final</string>
+    <string name="choose_name_test">Name Test</string>
+    <string name="choose_symbol_test">Symbol test</string>
+    <string name="choose_vocalization_test">Vocalization Test</string>
+    <string name="answer1">answer1</string>
+    <string name="answer2">answer2</string>
+    <string name="answer3">answer3</string>
+    <string name="answer0">answer0</string>
+    <string name="correct_answer">Correct Answer!</string>
+    <string name="score">score</string>
+    <string name="nameTest">nameTest</string>
+    <string name="symbolTest">symbolTest</string>
+    <string name="vocalizationTest">vocalizationTest</string>
+    <string name="initialForm">initialForm</string>
+    <string name="medialForm">medialForm</string>
+    <string name="isolatedForm">isolatedForm</string>
+    <string name="finalForm">finalForm</string>
+    <string name="wrong_answer">Wrong Answer!</string>
+</resources>

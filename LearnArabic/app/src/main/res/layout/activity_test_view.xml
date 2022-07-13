@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-140dp">
+
+
+        <LinearLayout
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal"
+                android:layout_width="150dp"
+                android:layout_height="50dp">
+
+
+            <TextView
+                    style="@style/TextViewScore"
+                    android:text="Score:"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ScoreText" />
+
+            <TextView
+                    style="@style/TextViewScore"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ScoreValue" />
+        </LinearLayout>
+
+
+            <TextView
+                    style="@style/TextSwitcherText"
+                    android:id="@+id/ShowWrongAnswer"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:text=""
+                    android:textColor="#F00">
+            </TextView>
+
+
+        <TextView
+            android:id="@+id/CorrectAnswer"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/correct_answer"
+            android:gravity="center"
+            android:textSize="40sp"/>
+
+
+        <Button
+            android:id="@+id/Answer0"
+            style="@style/menuButton"
+            android:text="@string/answer0"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/Answer1"
+            style="@style/menuButton"
+            android:text="@string/answer1"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <Button
+            android:id="@+id/Answer2"
+            style="@style/menuButton"
+            android:text="@string/answer2"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <Button
+            android:id="@+id/Answer3"
+            style="@style/menuButton"
+            android:text="@string/answer3"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

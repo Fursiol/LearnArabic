@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:text="isolated">
+        </TextView>
+        <TextView
+            style="@style/Text"
+            android:text="initial">
+        </TextView>
+        <TextView
+            style="@style/Text"
+            android:text="medial">
+        </TextView>
+        <TextView
+            style="@style/Text"
+            android:text="final">
+        </TextView>
+        <TextView
+            style="@style/Text"
+            android:text="english">
+        </TextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/card_view_design" />
+
+</LinearLayout>

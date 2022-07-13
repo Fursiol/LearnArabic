@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-140dp">
+
+        <Button
+            android:id="@+id/ChooseNameTest"
+            style="@style/menuButton"
+            android:text="@string/choose_name_test"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/ChooseSymbolTest"
+            style="@style/menuButton"
+            android:text="@string/choose_symbol_test"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <Button
+            android:id="@+id/ChooseVocalizationTest"
+            style="@style/menuButton"
+            android:text="@string/choose_vocalization_test"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
